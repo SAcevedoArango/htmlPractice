@@ -1,0 +1,131 @@
+html {
+    font-size: 16px;
+    color: ivory;
+    /*background: linear-gradient(-45deg, #233953, #7C99B4);*/
+    /*background-image: url('./media/fondo1.jpeg');*/
+    background-image: url('./media/fondo2.jpg');
+    background-size: cover;
+    font-family: Helvetica, sans-serif;
+}
+
+
+body {
+    width: 70rem;
+    margin: 0 auto;
+}
+
+main {
+    background-color: hsla(0, 0%, 0%, 0.9);
+    margin: 0 auto;
+}
+
+nav {
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Sometype Mono', monospace;
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+    
+}
+
+nav ul a {
+    padding-right: 4rem;
+}
+
+header {
+    border: 1px solid black;
+    background: hsla(211, 63%, 73%, 1);
+    color: black;
+}
+
+
+
+article {
+    position: relative;
+    width: 46rem;
+    background: hsla(213, 41%, 23%, 0.5);
+    border: 0.2rem solid black;
+    border-radius: 10% 20% / 10% 40%;
+    padding: 2rem;
+    margin: 2rem;
+}
+
+.aleft {
+    left: 0%;
+}
+
+.aright {
+    left: 22%;
+}
+
+h2 {
+    text-align: center;
+}
+
+article p {
+    padding: 1rem;
+    margin: 1rem;
+    line-height: 1.5rem;
+}
+
+article ul li {
+    line-height: 1.2rem;
+}
+
+
+footer {
+    border: 1px solid black;
+    background: hsla(209, 27%, 60%, 1);
+    color: black;    width: 60rem;
+    height: 13rem;
+    text-align: center;
+    margin: 0 auto;
+    border-top: 0px solid black;
+    position: relative;
+    top: 1rem;
+    line-height: 150%;
+}
+footer p a:link {
+    color: lightgoldenrodyellow;
+}
+footer p a:visited {
+    color: #3835fa;
+}
+footer h2 {
+    z-index: 1;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  .fa-reddit {
+    background: #ff5700;
+    color: white;
+  }
